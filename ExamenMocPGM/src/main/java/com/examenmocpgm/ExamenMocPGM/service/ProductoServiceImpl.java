@@ -3,10 +3,12 @@ package com.examenmocpgm.ExamenMocPGM.service;
 import com.examenmocpgm.ExamenMocPGM.repository.ProductoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import com.examenmocpgm.ExamenMocPGM.entity.*;
+import org.springframework.stereotype.Service;
 
 import java.util.List;
 import java.util.Optional;
 
+@Service
 public class ProductoServiceImpl implements ProductoService {
 
     @Autowired

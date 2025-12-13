@@ -14,8 +14,8 @@ import java.util.Optional;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+
 @ExtendWith(MockitoExtension.class)
-@SpringBootTest
 class ProductoControllerTest {
 
     @Mock
